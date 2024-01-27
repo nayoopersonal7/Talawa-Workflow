@@ -88,9 +88,8 @@ function loginPage(): JSX.Element {
     async function loadResource(): Promise<void> {
       try {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        if (BACKEND_URL) {
-          await fetch(BACKEND_URL);
-        }
+
+        await fetch(BACKEND_URL as string);
       } catch (error: any) {
         /* istanbul ignore next */
         errorHandler(t, error);
