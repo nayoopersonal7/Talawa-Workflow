@@ -88,7 +88,7 @@ function loginPage(): JSX.Element {
     async function loadResource(): Promise<void> {
       try {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
-
+        //some_test6
         await fetch('http://localhost:4000/graphql/');
       } catch (error: any) {
         /* istanbul ignore next */
