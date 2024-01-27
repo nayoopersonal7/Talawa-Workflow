@@ -163,7 +163,7 @@ function loginPage(): JSX.Element {
 
   const signupLink = async (e: ChangeEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
-
+    //some_check
     const { signfirstName, signlastName, signEmail, signPassword, cPassword } =
       signformState;
 
