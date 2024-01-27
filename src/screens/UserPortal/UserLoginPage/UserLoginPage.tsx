@@ -89,7 +89,7 @@ function loginPage(): JSX.Element {
       try {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
 
-        await fetch(BACKEND_URL as string);
+        await fetch('http://localhost:4000/graphql/');
       } catch (error: any) {
         /* istanbul ignore next */
         errorHandler(t, error);
