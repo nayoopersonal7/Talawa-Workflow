@@ -1,0 +1,19 @@
+.modalbtn {
+  display: flex !important;
+  margin-left: auto;
+  align-items: center;
+}
+
+.modalbtn i,
+.button i {
+  margin-right: 8px;
+}
+
+.button {
+  min-width: 102px;
+}
+
+.editHeader {
+  background-color: #31bb6b;
+  color: white;
+}
