@@ -20,11 +20,7 @@ import {
   YoutubeLogo,
 } from 'assets/svgs/social-icons';
 
-import {
-  REACT_APP_USE_RECAPTCHA,
-  RECAPTCHA_SITE_KEY,
-  BACKEND_URL,
-} from 'Constant/constant';
+import { REACT_APP_USE_RECAPTCHA, RECAPTCHA_SITE_KEY } from 'Constant/constant';
 import {
   LOGIN_MUTATION,
   RECAPTCHA_MUTATION,
