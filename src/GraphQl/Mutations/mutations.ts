@@ -92,13 +92,7 @@ export const UPDATE_USER_MUTATION = gql`
     $file: String
   ) {
     updateUserProfile(
-      data: {
-        firstName: $firstName
-        lastName: $lastName
-        email: $email
-        id: $id
-        applangcode: $applangcode
-      }
+      data: { firstName: $firstName, lastName: $lastName, email: $email }
       file: $file
     ) {
       _id
